@@ -1,0 +1,170 @@
+
+#wrap{
+    position: static;
+    
+}
+
+
+body{
+    background-image:url(../slike/novaPozadina.jpg);
+    background-repeat: no-repeat;
+    margin: 10px;
+    padding: 0px;
+    background-size: cover;
+
+}
+.zaglavlje{
+  
+     width: 100wh;
+     background-size: cover;
+     
+ }
+
+
+ #logo{
+    height: 50px;
+    width: auto;
+  
+}
+
+#navBar{
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+
+}
+#navBar ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 1em;
+    padding: 10px;
+    background-color: rgb(1, 1, 41);
+    width: 100wh;
+  }
+
+@media screen and (max-width:576px) {
+#navBar ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1em;
+   
+    padding: 0;
+    padding-top: 15px;
+    background-color: rgb(1, 1, 41);
+    width: 100wh;
+  }
+}
+
+#navBar li{
+    display: inline;
+    
+}
+#navBar a:link,#navBar a:visited{
+    padding: 5px 15px 5px 15px;
+    text-decoration: none;
+    color:#FFFFFF;
+
+}
+#navBar a:hover{
+    
+    color:#ffffff85;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#datum{
+    text-align: center;
+    font-size: 50px;
+}
+#strelica{
+    size: 5px;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    background-color: yellow;
+    border-radius: 50%;
+}
+
+
+#slika1{
+    height: auto;
+     width:100%;
+     opacity: 0.7;
+       
+     padding-top: 25px;
+    position: relative;
+    left:25px ;
+
+}
+#slika2{
+    height: 150px;
+    width: 150px;
+    
+}
+.panel{
+  
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+}
+#novaZgrada{
+    padding-left: 21px;
+}
+#tekst2{
+    padding: 10px 20px;
+    color:steelblue;
+    font-size: medium;
+
+}
+
+#tekst1{
+    padding: 10px 20px;
+    color: steelblue;
+    font-size: medium;
+
+}
+h2{
+    color: #207A96;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-variant: small-caps;
+    text-align: center;
+    text-decoration-line: underline;
+    
+    
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: purple;
+}
+.naslovKontakt{
+   text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.kontaktForma{
+    background-image: url("../slike/pozadina.jpg");
+    height: 360px;
+    width: 460px;
+    opacity: 0.9;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0 auto;
+   
+}
+#slika3{
+    
+    width: 200px;
+    height: 150px;
+}
+.footer1{
+    
+    display: grid;
+    padding: 25px;
+    grid-column-gap: 30px;
+    grid-template-columns: 1fr 1fr;
+
+ 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: magenta;
+}

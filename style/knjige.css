@@ -1,0 +1,138 @@
+
+#wrap{
+position: static; 
+
+}
+
+body{
+    
+    background-image:url(../slike/pozadinaPocetne.png);
+   
+    padding: 0px;
+    background-size: cover;
+   
+
+}
+.zaglavlje{
+  
+    width: 100wh;
+    background-size: cover;
+    
+}
+
+#logo{
+    height: 50px;
+    width: auto;
+  
+}
+
+#navBar{
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+
+}
+#navBar ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 1em;
+    padding: 10px;
+    background-color: rgb(1, 1, 41);
+    width: 100wh;
+  }
+
+@media screen and (max-width:576px) {
+#navBar ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1em;
+   
+    padding: 0;
+    padding-top: 15px;
+    background-color: rgb(1, 1, 41);
+    width: 100wh;
+  }
+}
+
+#navBar li{
+    display: inline;
+    
+}
+#navBar a:link,#navBar a:visited{
+    padding: 5px 15px 5px 15px;
+    text-decoration: none;
+    color:#FFFFFF;
+
+}
+#navBar a:hover{
+   
+    color:#ffffff85;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#datum{
+    text-align: center;
+    color:#FFFFFF;
+    
+}
+.footer1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgb(1, 1, 41);
+    width: 100wh;
+    font-size: 50px;
+
+}
+.dno{
+    text-align: center;
+    font-size: 20px;
+    color: white; ;
+}
+.grid-container{
+    background-color: white;
+    display: grid;
+    width: 100wh;
+    padding: 100px;
+    justify-content: space-around;
+    align-content: center;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 30px;
+    border-radius: 5px;
+}
+  
+.grid-item{
+  
+    border-radius: 5px;
+    align-content: center;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    border: 0.5px solid rgba(128, 128, 128, 0.251);
+    -webkit-box-shadow: 2px -1px 17px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px -1px 17px -3px rgba(0,0,0,0.75);
+    box-shadow: 2px -1px 17px -3px rgba(0,0,0,0.75);
+}
+.grid-container img{
+    align-content: center;
+    max-width: 170px;
+    height: auto;
+  }
+.description{
+   
+    color: grey;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+#strelica{
+    size: 5px;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    background-color: rgb(255, 255, 0);
+    border-radius: 50%;
+}
